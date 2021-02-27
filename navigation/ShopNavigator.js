@@ -15,6 +15,12 @@ const ProductsNavigator = createStackNavigator({
       backgroundColor: Platform.OS === 'android' ? Colors.primary : 'white'
     },
     headerTintColor: Platform.OS === 'android' ? 'white' : Colors.primary,
+    headerTitleStyle: {
+      fontFamily: 'open-sans-bold'
+    },
+    headerBackTitleStyle: {
+      fontFamily: 'open-sans'
+    },
     cardStyle: {
       backgroundColor: 'white'
     },
