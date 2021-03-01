@@ -34,30 +34,30 @@ const ProductsNavigator = createStackNavigator({
   ProductDetail: ProductDetailScreen,
   Cart: CartScreen,
 }, {
-  navigationOptions: {
-    drawerIcon: drawerConfig => (
-      <Ionicons
-        name={Platform.OS = 'android' ? 'md-cart': 'ios-cart'}
-        size={23}
-        color={drawerConfig.tintColor}
-      />
-    )
-  },
+  // navigationOptions: {
+  //   drawerIcon: drawerConfig => (
+  //     <Ionicons
+  //       name={Platform.OS = 'android' ? 'md-cart': 'ios-cart'}
+  //       size={23}
+  //       color={drawerConfig.tintColor}
+  //     />
+  //   )
+  // },
   defaultNavigationOptions: defaultNavOptions,
 });
 
 const OrdersNavigator = createStackNavigator({
   orders: OrdersScreen
 }, {
-  navigationOptions: {
-    drawerIcon: drawerConfig => (
-      <Ionicons
-        name={Platform.OS = 'android' ? 'md-list': 'ios-list'}
-        size={23}
-        color={drawerConfig.tintColor}
-      />
-    )
-  },
+  // navigationOptions: {
+  //   drawerIcon: drawerConfig => (
+  //     <Ionicons
+  //       name={Platform.OS = 'android' ? 'md-list': 'ios-list'}
+  //       size={23}
+  //       color={drawerConfig.tintColor}
+  //     />
+  //   )
+  // },
   defaultNavigationOptions: defaultNavOptions,
 });
 
@@ -65,15 +65,15 @@ const AdminNavigator = createStackNavigator({
   UserProducts: UserProductsScreen,
   EditProduct: EditProductScreen,
 }, {
-  navigationOptions: {
-    drawerIcon: drawerConfig => (
-      <Ionicons
-        name={Platform.OS = 'android' ? 'md-create': 'ios-create'}
-        size={23}
-        color={drawerConfig.tintColor}
-      />
-    )
-  },
+  // navigationOptions: {
+  //   drawerIcon: drawerConfig => (
+  //     <Ionicons
+  //       name={Platform.OS = 'android' ? 'md-create': 'ios-create'}
+  //       size={23}
+  //       color={drawerConfig.tintColor}
+  //     />
+  //   )
+  // },
   defaultNavigationOptions: defaultNavOptions,
 });
 
